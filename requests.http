@@ -1,0 +1,29 @@
+##login
+POST http://localhost:3003/api/login
+Content-Type: application/json
+
+{
+     "username":"Esmorçaret12",
+     "password":"cacau"
+}
+
+
+
+##POST a new blog
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+
+{
+  "title": "El Machupichu Underground",
+  "author": "Marc Marchupich",
+  "url": "http://tensungram.com",
+  "likes": 0,
+  "comments": "co-working sucks dude!"
+}
+
+
+//no funciona
+##GET all blogs
+GET http://localhost:3003/api/blogs
+
+Content-Type: application/json
